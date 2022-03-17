@@ -11,3 +11,5 @@ Route::get('/', function () {
     return 'Home';
 });
 
+Route::get('/redirect/{service}','App\Http\Controllers\SocialController@redirect');
+Route::get('/callback/{service}','App\Http\Controllers\SocialController@callback');

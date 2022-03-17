@@ -80,6 +80,9 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                                <button type="submit" class="btn btn-primary">
+                                    <a style="color: white;" href="{{url ('redirect/facebook')}}">Login with Facebook</a>
+                                </button>
                             </div>
                         </div>
                     </form>

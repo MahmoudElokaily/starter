@@ -26,3 +26,7 @@ class HomeController extends Controller
         return view('home');
     }
 }
+
+
+// 1077577572805505
+// 8e36d9e2645931f23dec6496c9eae78c
